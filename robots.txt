@@ -1,0 +1,14 @@
+# robots.txt for Aohan Millet Website
+
+User-agent: *
+Allow: /
+
+# 禁止爬取特定文件（如果有）
+Disallow: /admin/
+Disallow: /*.json$
+
+# 站点地图（部署后更新为实际域名）
+Sitemap: https://aohan-millet.pages.dev/sitemap.xml
+
+# 爬取延迟（礼貌地对待爬虫）
+Crawl-delay: 1

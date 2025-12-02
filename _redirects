@@ -1,0 +1,10 @@
+# Cloudflare Pages 重定向配置
+
+# 强制 HTTPS（Cloudflare 自动处理，这里作为备用）
+http://aohan-millet.pages.dev/* https://aohan-millet.pages.dev/:splat 301
+
+# 如果将来需要重定向旧 URL，可以在这里添加
+# /old-page /new-page 301
+
+# 404 页面（可选，目前使用单页应用，不需要）
+# /* /index.html 200
